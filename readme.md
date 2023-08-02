@@ -1,4 +1,4 @@
-### This repo is cloned from [here](https://github.com/aasis21/NodeAllocator) and modified to accomodate Prutor for MPI
+### This repo is cloned from [here](https://github.com/aasis21/NodeAllocator)
 # Network and Load-aware Resource Allocator for Parallel Programs
 Distributed-memory parallel programs typically run on multiple nodes in a cluster (shared or dedicated) or a supercomputer. The parallel communication library (e.g. Message Passing Interface) takes care of the communication setup and messaging required for parallel execution. The user is expected to specify a list of nodes while executing a parallel job in an unmanaged cluster. Typically, users randomly select a few nodes without much knowledge about the current network connectivity of these nodes and the current load on these nodes. In this work, we address the problem of allocating a good set of nodes to run the parallel MPI jobs in a non-dedicated cluster with variable resource usages (varying compute load and varying available network bandwidths).
 
